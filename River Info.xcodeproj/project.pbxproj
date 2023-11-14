@@ -1,0 +1,1042 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F959AC542AE01253006769AA /* River_InfoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F959AC532AE01253006769AA /* River_InfoApp.swift */; };
+		F959AC562AE01253006769AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F959AC552AE01253006769AA /* ContentView.swift */; };
+		F959AC582AE01254006769AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F959AC572AE01254006769AA /* Assets.xcassets */; };
+		F959AC5B2AE01254006769AA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F959AC5A2AE01254006769AA /* Preview Assets.xcassets */; };
+		F959AC652AE01254006769AA /* River_InfoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F959AC642AE01254006769AA /* River_InfoTests.swift */; };
+		F959AC6F2AE01254006769AA /* River_InfoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F959AC6E2AE01254006769AA /* River_InfoUITests.swift */; };
+		F959AC712AE01254006769AA /* River_InfoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F959AC702AE01254006769AA /* River_InfoUITestsLaunchTests.swift */; };
+		F959AC772AE01254006769AA /* River Info Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = F959AC762AE01254006769AA /* River Info Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F959AC7C2AE01254006769AA /* River_InfoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F959AC7B2AE01254006769AA /* River_InfoApp.swift */; };
+		F959AC7E2AE01254006769AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F959AC7D2AE01254006769AA /* ContentView.swift */; };
+		F959AC802AE01255006769AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F959AC7F2AE01255006769AA /* Assets.xcassets */; };
+		F959AC832AE01255006769AA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F959AC822AE01255006769AA /* Preview Assets.xcassets */; };
+		F959AC8D2AE01255006769AA /* River_Info_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F959AC8C2AE01255006769AA /* River_Info_Watch_AppTests.swift */; };
+		F959AC972AE01255006769AA /* River_Info_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F959AC962AE01255006769AA /* River_Info_Watch_AppUITests.swift */; };
+		F959AC992AE01255006769AA /* River_Info_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F959AC982AE01255006769AA /* River_Info_Watch_AppUITestsLaunchTests.swift */; };
+		F983D7A12AE2A1FC0091F59B /* RiverObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = F983D7A02AE2A1FC0091F59B /* RiverObject.swift */; };
+		F983D7A22AE2A3310091F59B /* RiverObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = F983D7A02AE2A1FC0091F59B /* RiverObject.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F959AC612AE01254006769AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F959AC482AE01253006769AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F959AC4F2AE01253006769AA;
+			remoteInfo = "River Info";
+		};
+		F959AC6B2AE01254006769AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F959AC482AE01253006769AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F959AC4F2AE01253006769AA;
+			remoteInfo = "River Info";
+		};
+		F959AC782AE01254006769AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F959AC482AE01253006769AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F959AC752AE01254006769AA;
+			remoteInfo = "River Info Watch App";
+		};
+		F959AC892AE01255006769AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F959AC482AE01253006769AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F959AC752AE01254006769AA;
+			remoteInfo = "River Info Watch App";
+		};
+		F959AC932AE01255006769AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F959AC482AE01253006769AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F959AC752AE01254006769AA;
+			remoteInfo = "River Info Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F959AC9F2AE01255006769AA /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				F959AC772AE01254006769AA /* River Info Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F926196A2AE9400900BAFC32 /* River-Info-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "River-Info-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		F959AC502AE01253006769AA /* River Info.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "River Info.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F959AC532AE01253006769AA /* River_InfoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = River_InfoApp.swift; sourceTree = "<group>"; };
+		F959AC552AE01253006769AA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F959AC572AE01254006769AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F959AC5A2AE01254006769AA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F959AC602AE01254006769AA /* River InfoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "River InfoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F959AC642AE01254006769AA /* River_InfoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = River_InfoTests.swift; sourceTree = "<group>"; };
+		F959AC6A2AE01254006769AA /* River InfoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "River InfoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F959AC6E2AE01254006769AA /* River_InfoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = River_InfoUITests.swift; sourceTree = "<group>"; };
+		F959AC702AE01254006769AA /* River_InfoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = River_InfoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F959AC762AE01254006769AA /* River Info Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "River Info Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F959AC7B2AE01254006769AA /* River_InfoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = River_InfoApp.swift; sourceTree = "<group>"; };
+		F959AC7D2AE01254006769AA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F959AC7F2AE01255006769AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F959AC822AE01255006769AA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F959AC882AE01255006769AA /* River Info Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "River Info Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F959AC8C2AE01255006769AA /* River_Info_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = River_Info_Watch_AppTests.swift; sourceTree = "<group>"; };
+		F959AC922AE01255006769AA /* River Info Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "River Info Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F959AC962AE01255006769AA /* River_Info_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = River_Info_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		F959AC982AE01255006769AA /* River_Info_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = River_Info_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F983D7A02AE2A1FC0091F59B /* RiverObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiverObject.swift; sourceTree = "<group>"; };
+		F98815242AE2646D0002B2AC /* River-Info-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "River-Info-Info.plist"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F959AC4D2AE01253006769AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F959AC5D2AE01254006769AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F959AC672AE01254006769AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F959AC732AE01254006769AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F959AC852AE01255006769AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F959AC8F2AE01255006769AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F959AC472AE01253006769AA = {
+			isa = PBXGroup;
+			children = (
+				F959AC522AE01253006769AA /* River Info */,
+				F959AC632AE01254006769AA /* River InfoTests */,
+				F959AC6D2AE01254006769AA /* River InfoUITests */,
+				F959AC7A2AE01254006769AA /* River Info Watch App */,
+				F959AC8B2AE01255006769AA /* River Info Watch AppTests */,
+				F959AC952AE01255006769AA /* River Info Watch AppUITests */,
+				F959AC512AE01253006769AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F959AC512AE01253006769AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F959AC502AE01253006769AA /* River Info.app */,
+				F959AC602AE01254006769AA /* River InfoTests.xctest */,
+				F959AC6A2AE01254006769AA /* River InfoUITests.xctest */,
+				F959AC762AE01254006769AA /* River Info Watch App.app */,
+				F959AC882AE01255006769AA /* River Info Watch AppTests.xctest */,
+				F959AC922AE01255006769AA /* River Info Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F959AC522AE01253006769AA /* River Info */ = {
+			isa = PBXGroup;
+			children = (
+				F98815242AE2646D0002B2AC /* River-Info-Info.plist */,
+				F959AC532AE01253006769AA /* River_InfoApp.swift */,
+				F959AC552AE01253006769AA /* ContentView.swift */,
+				F959AC572AE01254006769AA /* Assets.xcassets */,
+				F983D7A02AE2A1FC0091F59B /* RiverObject.swift */,
+				F959AC592AE01254006769AA /* Preview Content */,
+			);
+			path = "River Info";
+			sourceTree = "<group>";
+		};
+		F959AC592AE01254006769AA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F959AC5A2AE01254006769AA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F959AC632AE01254006769AA /* River InfoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F959AC642AE01254006769AA /* River_InfoTests.swift */,
+			);
+			path = "River InfoTests";
+			sourceTree = "<group>";
+		};
+		F959AC6D2AE01254006769AA /* River InfoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F959AC6E2AE01254006769AA /* River_InfoUITests.swift */,
+				F959AC702AE01254006769AA /* River_InfoUITestsLaunchTests.swift */,
+			);
+			path = "River InfoUITests";
+			sourceTree = "<group>";
+		};
+		F959AC7A2AE01254006769AA /* River Info Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				F926196A2AE9400900BAFC32 /* River-Info-Watch-App-Info.plist */,
+				F959AC7B2AE01254006769AA /* River_InfoApp.swift */,
+				F959AC7D2AE01254006769AA /* ContentView.swift */,
+				F959AC7F2AE01255006769AA /* Assets.xcassets */,
+				F959AC812AE01255006769AA /* Preview Content */,
+			);
+			path = "River Info Watch App";
+			sourceTree = "<group>";
+		};
+		F959AC812AE01255006769AA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F959AC822AE01255006769AA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F959AC8B2AE01255006769AA /* River Info Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F959AC8C2AE01255006769AA /* River_Info_Watch_AppTests.swift */,
+			);
+			path = "River Info Watch AppTests";
+			sourceTree = "<group>";
+		};
+		F959AC952AE01255006769AA /* River Info Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F959AC962AE01255006769AA /* River_Info_Watch_AppUITests.swift */,
+				F959AC982AE01255006769AA /* River_Info_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "River Info Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F959AC4F2AE01253006769AA /* River Info */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F959ACA02AE01255006769AA /* Build configuration list for PBXNativeTarget "River Info" */;
+			buildPhases = (
+				F959AC4C2AE01253006769AA /* Sources */,
+				F959AC4D2AE01253006769AA /* Frameworks */,
+				F959AC4E2AE01253006769AA /* Resources */,
+				F959AC9F2AE01255006769AA /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F959AC792AE01254006769AA /* PBXTargetDependency */,
+			);
+			name = "River Info";
+			productName = "River Info";
+			productReference = F959AC502AE01253006769AA /* River Info.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F959AC5F2AE01254006769AA /* River InfoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F959ACA32AE01255006769AA /* Build configuration list for PBXNativeTarget "River InfoTests" */;
+			buildPhases = (
+				F959AC5C2AE01254006769AA /* Sources */,
+				F959AC5D2AE01254006769AA /* Frameworks */,
+				F959AC5E2AE01254006769AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F959AC622AE01254006769AA /* PBXTargetDependency */,
+			);
+			name = "River InfoTests";
+			productName = "River InfoTests";
+			productReference = F959AC602AE01254006769AA /* River InfoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F959AC692AE01254006769AA /* River InfoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F959ACA62AE01255006769AA /* Build configuration list for PBXNativeTarget "River InfoUITests" */;
+			buildPhases = (
+				F959AC662AE01254006769AA /* Sources */,
+				F959AC672AE01254006769AA /* Frameworks */,
+				F959AC682AE01254006769AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F959AC6C2AE01254006769AA /* PBXTargetDependency */,
+			);
+			name = "River InfoUITests";
+			productName = "River InfoUITests";
+			productReference = F959AC6A2AE01254006769AA /* River InfoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		F959AC752AE01254006769AA /* River Info Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F959AC9C2AE01255006769AA /* Build configuration list for PBXNativeTarget "River Info Watch App" */;
+			buildPhases = (
+				F959AC722AE01254006769AA /* Sources */,
+				F959AC732AE01254006769AA /* Frameworks */,
+				F959AC742AE01254006769AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "River Info Watch App";
+			productName = "River Info Watch App";
+			productReference = F959AC762AE01254006769AA /* River Info Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F959AC872AE01255006769AA /* River Info Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F959ACA92AE01255006769AA /* Build configuration list for PBXNativeTarget "River Info Watch AppTests" */;
+			buildPhases = (
+				F959AC842AE01255006769AA /* Sources */,
+				F959AC852AE01255006769AA /* Frameworks */,
+				F959AC862AE01255006769AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F959AC8A2AE01255006769AA /* PBXTargetDependency */,
+			);
+			name = "River Info Watch AppTests";
+			productName = "River Info Watch AppTests";
+			productReference = F959AC882AE01255006769AA /* River Info Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F959AC912AE01255006769AA /* River Info Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F959ACAC2AE01255006769AA /* Build configuration list for PBXNativeTarget "River Info Watch AppUITests" */;
+			buildPhases = (
+				F959AC8E2AE01255006769AA /* Sources */,
+				F959AC8F2AE01255006769AA /* Frameworks */,
+				F959AC902AE01255006769AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F959AC942AE01255006769AA /* PBXTargetDependency */,
+			);
+			name = "River Info Watch AppUITests";
+			productName = "River Info Watch AppUITests";
+			productReference = F959AC922AE01255006769AA /* River Info Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F959AC482AE01253006769AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					F959AC4F2AE01253006769AA = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					F959AC5F2AE01254006769AA = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = F959AC4F2AE01253006769AA;
+					};
+					F959AC692AE01254006769AA = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = F959AC4F2AE01253006769AA;
+					};
+					F959AC752AE01254006769AA = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					F959AC872AE01255006769AA = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = F959AC752AE01254006769AA;
+					};
+					F959AC912AE01255006769AA = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = F959AC752AE01254006769AA;
+					};
+				};
+			};
+			buildConfigurationList = F959AC4B2AE01253006769AA /* Build configuration list for PBXProject "River Info" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F959AC472AE01253006769AA;
+			productRefGroup = F959AC512AE01253006769AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F959AC4F2AE01253006769AA /* River Info */,
+				F959AC5F2AE01254006769AA /* River InfoTests */,
+				F959AC692AE01254006769AA /* River InfoUITests */,
+				F959AC752AE01254006769AA /* River Info Watch App */,
+				F959AC872AE01255006769AA /* River Info Watch AppTests */,
+				F959AC912AE01255006769AA /* River Info Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F959AC4E2AE01253006769AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F959AC5B2AE01254006769AA /* Preview Assets.xcassets in Resources */,
+				F959AC582AE01254006769AA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F959AC5E2AE01254006769AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F959AC682AE01254006769AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F959AC742AE01254006769AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F959AC832AE01255006769AA /* Preview Assets.xcassets in Resources */,
+				F959AC802AE01255006769AA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F959AC862AE01255006769AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F959AC902AE01255006769AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F959AC4C2AE01253006769AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F959AC562AE01253006769AA /* ContentView.swift in Sources */,
+				F983D7A12AE2A1FC0091F59B /* RiverObject.swift in Sources */,
+				F959AC542AE01253006769AA /* River_InfoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F959AC5C2AE01254006769AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F959AC652AE01254006769AA /* River_InfoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F959AC662AE01254006769AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F959AC6F2AE01254006769AA /* River_InfoUITests.swift in Sources */,
+				F959AC712AE01254006769AA /* River_InfoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F959AC722AE01254006769AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F959AC7E2AE01254006769AA /* ContentView.swift in Sources */,
+				F983D7A22AE2A3310091F59B /* RiverObject.swift in Sources */,
+				F959AC7C2AE01254006769AA /* River_InfoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F959AC842AE01255006769AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F959AC8D2AE01255006769AA /* River_Info_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F959AC8E2AE01255006769AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F959AC972AE01255006769AA /* River_Info_Watch_AppUITests.swift in Sources */,
+				F959AC992AE01255006769AA /* River_Info_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F959AC622AE01254006769AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F959AC4F2AE01253006769AA /* River Info */;
+			targetProxy = F959AC612AE01254006769AA /* PBXContainerItemProxy */;
+		};
+		F959AC6C2AE01254006769AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F959AC4F2AE01253006769AA /* River Info */;
+			targetProxy = F959AC6B2AE01254006769AA /* PBXContainerItemProxy */;
+		};
+		F959AC792AE01254006769AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F959AC752AE01254006769AA /* River Info Watch App */;
+			targetProxy = F959AC782AE01254006769AA /* PBXContainerItemProxy */;
+		};
+		F959AC8A2AE01255006769AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F959AC752AE01254006769AA /* River Info Watch App */;
+			targetProxy = F959AC892AE01255006769AA /* PBXContainerItemProxy */;
+		};
+		F959AC942AE01255006769AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F959AC752AE01254006769AA /* River Info Watch App */;
+			targetProxy = F959AC932AE01255006769AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F959AC9A2AE01255006769AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F959AC9B2AE01255006769AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		F959AC9D2AE01255006769AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"River Info Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 4BX587URLQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "River-Info-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "River Info";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "Road-Beyond.River-Info";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Road-Beyond.River-Info.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		F959AC9E2AE01255006769AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"River Info Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 4BX587URLQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "River-Info-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "River Info";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "Road-Beyond.River-Info";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Road-Beyond.River-Info.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		F959ACA12AE01255006769AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"River Info/Preview Content\"";
+				DEVELOPMENT_TEAM = 4BX587URLQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "River-Info-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "River Info";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Road-Beyond.River-Info";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F959ACA22AE01255006769AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"River Info/Preview Content\"";
+				DEVELOPMENT_TEAM = 4BX587URLQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "River-Info-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "River Info";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Road-Beyond.River-Info";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F959ACA42AE01255006769AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4BX587URLQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Road-Beyond.River-InfoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/River Info.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/River Info";
+			};
+			name = Debug;
+		};
+		F959ACA52AE01255006769AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4BX587URLQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Road-Beyond.River-InfoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/River Info.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/River Info";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F959ACA72AE01255006769AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4BX587URLQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Road-Beyond.River-InfoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "River Info";
+			};
+			name = Debug;
+		};
+		F959ACA82AE01255006769AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4BX587URLQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Road-Beyond.River-InfoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "River Info";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F959ACAA2AE01255006769AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4BX587URLQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Road-Beyond.River-Info-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/River Info Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/River Info Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		F959ACAB2AE01255006769AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4BX587URLQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Road-Beyond.River-Info-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/River Info Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/River Info Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		F959ACAD2AE01255006769AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4BX587URLQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Road-Beyond.River-Info-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "River Info Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		F959ACAE2AE01255006769AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4BX587URLQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Road-Beyond.River-Info-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "River Info Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F959AC4B2AE01253006769AA /* Build configuration list for PBXProject "River Info" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F959AC9A2AE01255006769AA /* Debug */,
+				F959AC9B2AE01255006769AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F959AC9C2AE01255006769AA /* Build configuration list for PBXNativeTarget "River Info Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F959AC9D2AE01255006769AA /* Debug */,
+				F959AC9E2AE01255006769AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F959ACA02AE01255006769AA /* Build configuration list for PBXNativeTarget "River Info" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F959ACA12AE01255006769AA /* Debug */,
+				F959ACA22AE01255006769AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F959ACA32AE01255006769AA /* Build configuration list for PBXNativeTarget "River InfoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F959ACA42AE01255006769AA /* Debug */,
+				F959ACA52AE01255006769AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F959ACA62AE01255006769AA /* Build configuration list for PBXNativeTarget "River InfoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F959ACA72AE01255006769AA /* Debug */,
+				F959ACA82AE01255006769AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F959ACA92AE01255006769AA /* Build configuration list for PBXNativeTarget "River Info Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F959ACAA2AE01255006769AA /* Debug */,
+				F959ACAB2AE01255006769AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F959ACAC2AE01255006769AA /* Build configuration list for PBXNativeTarget "River Info Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F959ACAD2AE01255006769AA /* Debug */,
+				F959ACAE2AE01255006769AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F959AC482AE01253006769AA /* Project object */;
+}
