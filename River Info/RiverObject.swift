@@ -47,14 +47,19 @@ struct RiverData: Decodable {
         }
     
     func loadData(completion: @escaping (RiverData) -> Void) async {
+        
         do {
+            var tryAgain = true
+            
             let url = URL(string: "http://23.239.17.146:8080/test")!
             let request = URLRequest(url: url)
             let task = URLSession.shared.dataTask(with: request, completionHandler: {(data, res, err)  in
                 guard let data = data else {
                     print("no data")
                     print(err.debugDescription)
+                    
                     return
+                    
                 }
                 
                 do {

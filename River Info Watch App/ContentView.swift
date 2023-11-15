@@ -82,5 +82,3 @@ struct ContentView: View {
 }
 
 
-
-// this isa gity testskljs;akj;dfkj;alkjd;lfkj;lkj;lkj;git test
