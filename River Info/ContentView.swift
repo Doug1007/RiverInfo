@@ -24,18 +24,22 @@ struct ContentView: View {
             Text("Fletcher, NC")
                 .font(.title)
             Spacer()
-            Image(systemName: "globe")
+            Text(info.time)
+                .font(.title)
+            
+        Text(String(info.temp) + "°F / " + String(info.level) + " ft.")
+            .font(.title)
+            .padding(.bottom)
+            
+            Image(systemName: "water.waves")
                 
                 .resizable()
                 .frame(width: 100,height: 100)
                 .foregroundStyle(.tint)
                 .padding()
-            Text(info.time)
-                .font(.title)
-                
-            Text(String(info.temp) + "°F / " + String(info.level) + " ft.")
-                .font(.title)
-                .padding(.bottom)
+            
+            
+            
             
             Text("Clear")
             Text("Moderate")

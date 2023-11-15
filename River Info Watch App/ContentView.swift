@@ -23,7 +23,7 @@ struct ContentView: View {
         VStack {
             Text("Fletcher, NC")
             Spacer()
-            Image(systemName: "globe")
+            Image(systemName: "water.waves")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Spacer()
@@ -52,7 +52,8 @@ struct ContentView: View {
                         let date = dateFormatter.date(from: json.time)
                         print (date!.description)
                         dateFormatter.timeStyle = .short
-                        dateFormatter.dateStyle = .medium
+                        dateFormatter.dateStyle = .short
+                        
                         DispatchQueue.main.async {
                             
                             info.level = json.level
